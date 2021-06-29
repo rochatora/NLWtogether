@@ -1,3 +1,5 @@
 # NLWtogether
 
-**Discover**
+**Mission: Discover**
+
+*Jakeliny Gracielly*
