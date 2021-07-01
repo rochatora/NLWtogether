@@ -9,6 +9,7 @@ server.use(express.static("public")) /* falando para o server utilizar o conteud
 
 server.set('views', path.join(__dirname, 'views')) /* o modulo path pega o caminho da pasta do projeto, junta JOIN o caminho do projeto com o dirname 'variavel global' e a pasta views, gerando um caminho ../src/views */
 
+server.use(express.urlencoded({extended: true})) // pegar conteudo do formulario e passar para o controller (middleware)
 
 server.use(route) /* o server utilizara o route onde o arquivo tem todas as rotas */
 
